@@ -26,10 +26,10 @@ body {
     text-decoration: none;
 }
 
-.nav-list a :hover {
-    /* color: black;
-    font-size: 50px; */
-}
+/* .nav-list a :hover {
+    color: black;
+    font-size: 50px;
+} */
 
 .list-item {
     display: inline-block;
