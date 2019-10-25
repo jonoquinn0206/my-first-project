@@ -26,7 +26,7 @@ body {
     text-decoration: none;
 }
 
-.nav-list a:hover {
+.nav-list a :hover {
     /* color: black;
     font-size: 50px; */
 }
