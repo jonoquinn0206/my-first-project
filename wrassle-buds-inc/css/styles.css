@@ -1,0 +1,36 @@
+
+.nav-bar {
+    background-color: #8F9088;
+    height: 80px;
+    width: 100%;
+  }
+  
+.logo2 {
+    height: 80px; 
+    float: left;
+  }   
+.nav-list {
+    margin-top: 25px;
+    float: left;
+  }
+.list-item {
+    display: inline;
+    color: #F5F6F5;
+    font-size: 15pt;
+    font-weight: bold;
+    padding: 0px 15px;
+    font-variant: small-caps;
+  }
+
+  /* end of nav list */
+
+   .main {
+    height: 1200px;
+    width: 75%;
+    margin: 0 auto;
+    background-image: url(../img/#);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 100px;
+
+}

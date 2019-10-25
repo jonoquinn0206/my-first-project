@@ -1,0 +1,69 @@
+body {
+    margin: 0 auto;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(132, 132, 132, .5)
+}
+
+.nav-logo {
+    height: 100px;
+    width: 250px;
+}
+
+.nav-list {
+    float: right;
+    margin: 50px auto;
+}
+
+.list-item {
+    display: inline-block;
+    font-size: 24pt;
+    font-weight: bold;
+    font-variant: small-caps;
+    padding: 0px 25px;
+    text-align: center;
+    border: solid  #ffffff 2px;
+    border-radius: 10px;
+}
+/* end of nav */
+
+.main {
+    height: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/batsexposure.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 100px;
+}
+
+.main-div {
+    width: 1500px;
+    height: 1500px;
+    position: relative;
+    top: 0;
+    left: 25%;
+}
+
+.main-img {
+    width: 495px;
+    height: 495px;
+    float: left;
+}
+ 
+.main-h1 {
+    width: 495px;
+    height: 245px;
+    float: right;
+    margin-left: 25px;
+    font-family: 'Creepster', cursive;
+    font-weight: bold;
+}
+
+
+/* font-family: 'Creepster', cursive;
+font-family: 'Julius Sans One', sans-serif; */
