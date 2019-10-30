@@ -1,0 +1,49 @@
+.container {
+    height: 1000px; 
+    width: 100%;
+    background-color: #3F4342;
+    margin-top: 95px;
+}
+.container-box {
+    width: 30%;
+    height: 700px;
+    background: #8F9088;
+    float: left;
+    margin-top: 100px;
+    margin-left: 40px;
+}   
+
+.about-img {
+    width: 50%;
+}
+
+.img-audio {
+    height: 200px;
+}
+
+.img-video {
+    width: 50%;
+}
+
+.about-p {
+    text-align: center;
+    padding: 25px;
+}
+
+.container-box img, .container-box audio, .container-box iframe {
+    display: block;
+    margin: auto;
+    
+}
+.footer-input, .social, .copy {
+   display: block;
+   text-align: center;
+}
+
+.footer-input {
+    margin-top: 10px;
+}
+
+.social {
+    margin-top: 12px;
+}

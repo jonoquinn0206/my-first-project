@@ -1,0 +1,31 @@
+.contact-section {
+    height: 700px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #8F9088;
+    position: relative;
+}
+
+.contact-header {
+    font-family: 'Bungee Outline', cursive;
+    font-size: 24pt;
+    text-align: center;
+    margin-top: 35px;
+}
+.contact-box {
+    height: 600px;
+    width: 45%;
+    border: 2px solid #ffffff;
+    position: absolute;
+    top: 90px;
+}
+
+.map {
+    left: 70px;
+    text-align: center;
+}
+
+.form {
+    right: 70px;
+    text-align: center;
+}

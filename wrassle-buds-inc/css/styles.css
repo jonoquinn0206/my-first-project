@@ -1,36 +1,151 @@
-
+body {
+    /* font-family: 'Bungee Outline', cursive; */
+    font-family: 'Dhurjati', sans-serif;
+}
 .nav-bar {
-    background-color: #8F9088;
-    height: 80px;
+    background-color: #ffffff;
+    height: 50px;
     width: 100%;
+    position: fixed; 
+    top: 0;
+    z-index: 1;
   }
   
-.logo2 {
-    height: 80px; 
-    float: left;
-  }   
 .nav-list {
-    margin-top: 25px;
     float: left;
+    /* margin-right: 20px;
+    margin-top: 50px; */
   }
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list a :hover {
+    color: black;
+    font-size: 50px;
+}
+
 .list-item {
     display: inline;
-    color: #F5F6F5;
-    font-size: 15pt;
+    color: #3F4342;
+    font-size: 18pt;
     font-weight: bold;
     padding: 0px 15px;
     font-variant: small-caps;
   }
 
+  
+
   /* end of nav list */
-
-   .main {
-    height: 1200px;
-    width: 75%;
-    margin: 0 auto;
-    background-image: url(../img/#);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin-top: 100px;
-
+  
+.container-box {
+  height: 1000px;
+  width: 100%;
+  position: relative;
 }
+
+.gray {
+  background-color: #8F9088;
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.main-text {
+  font-family: 'Bungee Outline', cursive;
+  position: absolute;
+  color: #FFFFFF;
+  top: 150px;
+  left: 150px;
+}
+
+.h1-img {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 90px;
+  right: 180px;
+}
+
+.dark {
+  background-color: #3F4342;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+#slideshow {
+  overflow: hidden;
+  height: 500px;
+  width: 728px;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 12s ease infinite;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.slide {
+  float: left;
+  height: 500px;
+  width: 728px;
+}
+
+.slideimg {
+  height: 500px;
+  width: 728px;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+
+.main-p {
+  width: 55%;
+  height: 500px;
+  font-weight: bold;
+  font-size: 18pt;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* end of section */
+
+.footer div {
+  width: 33%;
+  float: left;
+}
+
+.footer-input input, .footer-input button {
+  display: inline-block;
+}
+
+.footer-input input {
+  width: 530px;
+  height: 30px;
+}
+
+.footer-input button {
+  width: 55px;
+  height: 30px;
+}
+
+.fab {
+  color: #3F4342;
+  font-size: 3em;
+}
+
+  
+
+
